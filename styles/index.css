@@ -80,8 +80,11 @@ figure img{
    }
    .nav_btn{
     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
    }
-
+  
 }
 /* main section start here */
 
@@ -106,6 +109,7 @@ figure img{
 @media (max-width:576px) {
     .hero_section{
         flex-direction: column-reverse;
+        padding: 12px;
     }
     figure img{
     max-width:100%;
@@ -178,7 +182,9 @@ font-weight: 700;
 /* responsive mobile */
 @media (max-width:576px) {
     .nice_flower{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        padding: 12px;
     }
     .lily_text{
     color: #111111;
@@ -188,7 +194,7 @@ font-weight: 700;
     margin-bottom: 1.5rem;
 }
 #lily_btn{
-    padding: 26px 50px;
+    padding: 8px 10px;
     background-color: #E95A08;
     text-align: center;
     color: #FFFFFF;
@@ -196,13 +202,9 @@ font-weight: 700;
     margin-top: 1.575rem;
     margin-bottom: 1.575rem;
 }
-figure img{
-    max-width:100%;
-    display: block;
-    
+
 }
-}
-@media (min-width:576px) and (max-width:992px) {
+/* @media (min-width:576px) and (max-width:992px) {
     .nice_flower{
         grid-template-columns: repeat(2,1fr);
     }
@@ -227,7 +229,7 @@ figure img{
     display: block;
     
 }
-}
+} */
 /*  */
 .beauty{
     display: grid;
@@ -265,6 +267,8 @@ figure img{
 @media (max-width:576px){
     .beauty{
           grid-template-columns: repeat(1, 1fr);
+          gap: 0;
+          padding: 12px;
 
     }
     .fun_img{
@@ -276,6 +280,12 @@ figure img{
     text-align: center;
     margin-top: 130px;
 }
+@media (max-width:576px){
+    .Latest{
+        padding: 12px;
+    }
+}
+
 /* zabo */
 .bloom{
     background-image: url('../assets/deal-bloom.png');
@@ -343,11 +353,13 @@ figure img{
 @media (max-width:576px){
     .Bloom_Plant{
         grid-template-columns: repeat(1, 1fr);
+        padding: 12px;
     }
     .zab{
         width: 100%;
         height:423.13px ;
     }
+   
 }
 /*Join the colorful Bunch  */
 .colorful{
@@ -433,6 +445,13 @@ form input{
     display: flex;
     flex-direction: column;
     gap: 32px;
+ }
+ .foot_img{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    
+   
  }
  .foot_text{
     color: rgba(0, 0, 0, 0.50);
