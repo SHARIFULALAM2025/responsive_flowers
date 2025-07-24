@@ -1,0 +1,227 @@
+/* google font add */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.noto_serif_font {
+  font-family: "Noto Serif";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter_font {
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* common style */
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_text{
+    color: #8987A1;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.nav_text2{
+    color: #252432;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.nav_cart_text{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+figure img{
+    max-width:100%;
+    display: block;
+    
+}
+/* general style */
+.nav_btn{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   /* margin: 16px; */
+   
+}
+.nav_style  ul{
+    list-style: none;
+   
+
+}
+.nav_style, .cart_btn{
+    display: flex;
+    gap: 10px;
+   
+}
+.nav_style li{
+   display: flex;
+   gap: 48px;
+}
+.nav_style{
+    display: flex;
+    gap: 48px;
+}
+.nav_style  a{
+    text-decoration: none;
+}
+@media (max-width:576px) {
+     .list_item{
+        display: none;
+    }
+    figure img{
+    max-width:100%;
+    display: block;
+   }
+   .nav_btn{
+    align-items: center;
+   }
+
+}
+/* main section start here */
+
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_text{
+    font-size: 4.063rem;
+    font-weight: 700px;
+
+}
+.text{
+    color: #E95A08;
+}
+.para{
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+@media (max-width:576px) {
+    .hero_section{
+        flex-direction: column-reverse;
+    }
+    figure img{
+    max-width:100%;
+    display: block;
+   }
+   .hero_text{
+    font-size: 2.5rem;
+    font-weight: 500px;
+
+   }
+   .para{
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+/* plants */
+.plants{
+    text-align: center;
+}
+.Our{
+  font-size: 3.125rem;
+    color: #E95A08;
+    font-weight: 700;
+}
+#senses{
+    color: #000000;
+font-size: 3.125rem;
+font-weight: 700;
+   
+}
+.flower_shop{
+    font-size: 1.373;
+    color: rgba(0, 0, 0, 0.5);
+}
+.flower_shop{
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+.flower_text_1{
+    color: #111111;
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+.lily_text{
+    color: #111111;
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin-top:  1.875rem;
+    margin-bottom: 1.25rem;
+}
+#lily_btn{
+    padding: 26px 50px;
+    background-color: #E95A08;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+.lily_btn_text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nice_flower{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+/* responsive mobile */
+@media (max-width:576px) {
+    .nice_flower{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .lily_text{
+    color: #111111;
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin-top:  1.575rem;
+    margin-bottom: 1.5rem;
+}
+#lily_btn{
+    padding: 26px 50px;
+    background-color: #E95A08;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 1.575rem;
+    margin-bottom: 1.575rem;
+}
+figure img{
+    max-width:100%;
+    display: block;
+    
+}
+}
+@media (min-width:576px) and (max-width:992px) {
+    .nice_flower{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .lily_text{
+    color: #111111;
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin-top:  1.575rem;
+    margin-bottom: 1.5rem;
+}
+#lily_btn{
+    padding: 26px 50px;
+    background-color: #E95A08;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 1.575rem;
+    margin-bottom: 1.575rem;
+}
+figure img{
+    max-width:100%;
+    display: block;
+    
+}
+}
