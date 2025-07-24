@@ -272,3 +272,74 @@ figure img{
 .Latest{
     text-align: center;
 }
+/* zabo */
+.bloom{
+    background-image: url('../assets/deal-bloom.png');
+    max-width: 366.22px;
+    height: 206px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+.shop_now{
+  
+     color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700; 
+}
+.now_1{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600px;
+}
+.ana{
+    background-image: url('../assets/deal-ana.png');
+    max-width: 366.22px;
+    height: 206px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+   display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.zab{
+    background-image: url('../assets/deal.png');
+    background-repeat: no-repeat;
+    width:753px;
+    height: 423.13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 12px;
+    text-align: center;
+}
+.Bloom_Plant{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.text_5{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.text_6{
+    font-size: 1.75rem;
+    color:#FFFFFF ;
+    font-weight: 700;
+    
+}
+@media (max-width:576px){
+    .Bloom_Plant{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .zab{
+        width: 100%;
+        height:423.13px ;
+    }
+}
