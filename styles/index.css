@@ -89,6 +89,7 @@ figure img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
 }
 .hero_text{
     font-size: 4.063rem;
@@ -123,6 +124,7 @@ figure img{
 /* plants */
 .plants{
     text-align: center;
+    margin-top: 120px;
 }
 .Our{
   font-size: 3.125rem;
@@ -171,6 +173,7 @@ font-weight: 700;
 .nice_flower{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-top: 45px;
 }
 /* responsive mobile */
 @media (max-width:576px) {
@@ -271,6 +274,7 @@ figure img{
 /* Latest  Deals */
 .Latest{
     text-align: center;
+    margin-top: 130px;
 }
 /* zabo */
 .bloom{
@@ -306,6 +310,7 @@ figure img{
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-top: 20px;
 }
 .zab{
     background-image: url('../assets/deal.png');
@@ -322,6 +327,7 @@ figure img{
 .Bloom_Plant{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 120px;
 }
 .text_5{
     font-size: 2.5rem;
@@ -343,3 +349,100 @@ figure img{
         height:423.13px ;
     }
 }
+/*Join the colorful Bunch  */
+.colorful{
+    background-image: url('../assets/news-letter-bg.png');
+    max-width: 1440px;
+    height: 533px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.Join{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+ form input{
+    padding: 8px 20px;
+    width: 300px;
+    max-width: 100%;
+    border: none;
+ }
+ form{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+ }
+ .button_form{
+    padding: 8px 20px;
+    background-color: rgb(233, 90, 8);
+    border: none;
+    color: rgb(255, 255, 255);
+   
+ }
+ .button_form, :focus{
+    outline: none;
+ }
+ @media (max-width:576px){
+   .colorful{
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+   }
+   form{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+   }
+   .Join{
+    font-size: 1.55rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+form input{
+    padding: 8px 20px;
+    /* width: 300px; */
+    max-width: 100%;
+    border: none;
+ }
+
+ }
+ /* footer_section */
+ .footer_section{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    /* place-items: center; */
+ }
+ .fast_list{
+    list-style: none;
+ }
+ .fast_list, a{
+    text-decoration: none;
+    color: #6B7280;
+ }
+ .fast_list, .fast_list_1{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+ }
+ .foot_text{
+    color: rgba(0, 0, 0, 0.50);
+ }
+ @media (max-width:576px) {
+    .footer_section{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+    }
+    .foot1{
+        margin-top:30px;
+    }
+ }
