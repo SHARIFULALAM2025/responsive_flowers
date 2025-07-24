@@ -1,7 +1,7 @@
 /* google font add */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-.noto_serif_font {
+.noto_serif_font{
   font-family: "Noto Serif";
   font-optical-sizing: auto;
   font-style: normal;
@@ -224,4 +224,38 @@ figure img{
     display: block;
     
 }
+}
+/*  */
+.beauty{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 120px;
+    gap: 60px;
+}
+.fresh{
+    position: relative;
+    display: inline-block;
+}
+.main_img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.fun_img{
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    max-width: 286px;
+   
+}
+.Lover_text{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #000000;
+}
+.para_lover{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 1.375rem;
+    padding: 20px;
 }
