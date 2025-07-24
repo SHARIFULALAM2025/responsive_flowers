@@ -259,3 +259,16 @@ figure img{
     font-size: 1.375rem;
     padding: 20px;
 }
+@media (max-width:576px){
+    .beauty{
+          grid-template-columns: repeat(1, 1fr);
+
+    }
+    .fun_img{
+        display: none;
+    }
+}
+/* Latest  Deals */
+.Latest{
+    text-align: center;
+}
